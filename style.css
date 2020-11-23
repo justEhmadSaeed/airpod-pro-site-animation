@@ -1,33 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-body{
-    font-family: sans-serif;
+body {
+	font-family: sans-serif;
 }
-.intro{
-    height: 100vh;
+.intro {
+	height: 100vh;
 }
-.intro video{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.intro video {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
-.intro h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: white;
-    transform: translate(-50%, -50%);
-    font-size: 70px;
-}
-section{
-    height: 100vh;
-    color: black;
-}
-section h1{
-    padding-top: 300px;
-    text-align: center;
-    font-size: 70px;
+.intro h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	font-size: 60px;
+	/* overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto; */
 }
